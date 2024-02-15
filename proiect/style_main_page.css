@@ -1,0 +1,47 @@
+.box {
+    background-color:whitesmoke;
+    border-radius: 25px;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 50%
+}
+.input_box {
+    font-size: 18pt;
+
+    border-radius: 15px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+
+    width: 90%;
+    height: 70px;
+}
+input[type="submit"] {
+    background-color:lightgray;
+    border-radius: 15px;
+    font-size: 20pt;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 70px;
+}
+.wrong {
+    color: red;
+    display: none; /* change value to "block" when wrong usr or pass with function below */
+
+    /*function showForm(){
+    var checkBox = document.getElementById("checkbox");
+    if (checkBox.checked == true){
+     document.getElementById("form1").style.display="block";
+    }
+   else{
+     document.getElementById("form1").style.display="none";
+      }
+    }*/
+
+    /* and add onclick="showForm()" to call it */
+}
